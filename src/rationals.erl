@@ -47,9 +47,9 @@
 -type denominator() :: pos_integer().
 
 -record(fraction, {
-	  numerator :: numerator(), 
-	  denominator :: denominator()
-	 }).
+                   numerator :: numerator(),
+                   denominator :: denominator()
+                  }).
 
 -type ratio() :: {numerator(), denominator()}.
 
@@ -109,10 +109,10 @@ simplify(#fraction{numerator = Numerator, denominator = Denominator} = F) ->
 
 
 comparison(Fn, 
-	#fraction{numerator = N1,
-		  denominator = D1},
-	#fraction{numerator = N2,
-		  denominator = D2}) ->
+           #fraction{numerator = N1,
+                     denominator = D1},
+           #fraction{numerator = N2,
+                     denominator = D2}) ->
     Fn(N1 * D2, N2 * D1).
 
 
