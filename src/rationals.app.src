@@ -13,10 +13,10 @@
 %% See the License for the specific language governing permissions and
 %% limitations under the License.
 
-{application, rational,
+{application, rationals,
  [
   {description, "Rational numbers in Erlang"},
-  {vsn, "0.0.1"},
+  {vsn, "0.1.0"},
   {modules, []},
   {registered, []},
   {applications, [kernel,stdlib]},

@@ -1,3 +1,3 @@
 #-*- mode: makefile-gmake -*-
-PROJECT = rational
+PROJECT = rationals
 include erlang.mk
