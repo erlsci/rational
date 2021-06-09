@@ -1,4 +1,4 @@
-# Erlang Rational
+# Rationals
 
 Rational numbers in Erlang.
 
