@@ -23,5 +23,6 @@
   {env, []},
 
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, []},
+  {files, ["rebar.config", "README*", "LICENSE*", "src", "test"]}
  ]}.
