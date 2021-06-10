@@ -43,6 +43,8 @@ $ rebar3 check
 8
 ```
 
+See more examples in [rationals.erl](https://github.com/erlsci/rationals/blob/main/src/rationals.erl) and [test/rationals_SUITE.erl](https://github.com/erlsci/rationals/blob/master/test/rationals_SUITE.erl).
+
 ## License
 
 Copyright © 2021, Erlang-Aided Enrichment Center
