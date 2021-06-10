@@ -43,7 +43,7 @@ $ rebar3 check
 8
 ```
 
-See more examples in [rationals.erl](https://github.com/erlsci/rationals/blob/main/src/rationals.erl) and [test/rationals_SUITE.erl](https://github.com/erlsci/rationals/blob/master/test/rationals_SUITE.erl).
+See more examples in [test/rationals_SUITE.erl](https://github.com/erlsci/rationals/blob/master/test/rationals_SUITE.erl); see [rationals.erl](https://github.com/erlsci/rationals/blob/main/src/rationals.erl) for implementation details.
 
 ## License
 
